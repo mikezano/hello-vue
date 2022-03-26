@@ -20,7 +20,7 @@ const reset = () => {
 };
 </script>
 
-<style>
+<style scoped>
 button {
   background-color: orange;
   font-size: 2rem;

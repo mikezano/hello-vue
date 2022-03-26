@@ -6,6 +6,7 @@
         "build": "webpack --config=config/webpack.prod.js"
     },
     "dependencies": {
+        "open-iconic": "^1.1.1",
         "vue": "^3.0.0"
     },
     "devDependencies": {

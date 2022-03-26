@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+:root {
+  font-family: 'Rubik', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+/* #vue-app {
+  width: 100%;
+  height: 100vh;
+} */
+
+.fade-enter-from {
+  opacity: 0;
+}
+.fade-enter-to {
+  opacity: 1;
+}
+.fade-enter-active {
+  transition: opacity 0.2s ease-in;
+}
+.fade-leave-from {
+  opacity: 1;
+}
+.fade-leave-to {
+  opacity: 0;
+}
+.fade-leave-active {
+  transition: opacity 0.2s ease-in;
+}
+
+button {
+  background-color: hsla(0, 50%, 100%, 0.9);
+  border: 0.1rem solid hsla(0, 100%, 0%, 1);
+  border-radius: 0.1rem;
+  padding: 0.2rem 0.4rem;
+}
