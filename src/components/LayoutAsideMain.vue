@@ -79,7 +79,7 @@ const onAfterRevealSidebarButtonLeave = () => {
   background-color: hsla(0, 100%, 100%, 0.95);
 
   width: 16rem;
-  border-right: 1px solid gray;
+  border-right: 1px solid var(--zano-gray);
 }
 
 .layout__hide-sidebar,
@@ -107,7 +107,7 @@ const onAfterRevealSidebarButtonLeave = () => {
   transform: translateX(16rem);
 }
 .fade-move-enter-active {
-  transition: transform 0.5s ease;
+  transition: transform var(--animation-speed-1x) ease;
 }
 .fade-move-leave-from {
   transform: translateX(16rem);
@@ -116,7 +116,7 @@ const onAfterRevealSidebarButtonLeave = () => {
   transform: translateX(1rem);
 }
 .fade-move-leave-active {
-  transition: all 0.5s ease;
+  transition: all var(--animation-speed-1x) ease;
 }
 
 .move-enter-from {
@@ -126,7 +126,7 @@ const onAfterRevealSidebarButtonLeave = () => {
   transform: translateX(0);
 }
 .move-enter-active {
-  transition: transform 0.5s ease;
+  transition: transform var(--animation-speed-1x) ease;
 }
 .move-leave-from {
   transform: translateX(0);
@@ -135,6 +135,6 @@ const onAfterRevealSidebarButtonLeave = () => {
   transform: translateX(-16rem);
 }
 .move-leave-active {
-  transition: transform 0.5s ease;
+  transition: transform var(--animation-speed-1x) ease;
 }
 </style>

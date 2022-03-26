@@ -2,6 +2,12 @@
 
 :root {
   font-family: 'Rubik', sans-serif;
+
+  --zano-gray: hsla(0, 0%, 60%, 1);
+  --zano-gray-light1: hsla(0, 0%, 80%, 1);
+  --animation-speed-05x: 1s;
+  --animation-speed-1x: 0.5s;
+  --animation-speed-2x: 0.2s;
 }
 
 body {
@@ -34,7 +40,7 @@ body {
 
 button {
   background-color: hsla(0, 50%, 100%, 0.9);
-  border: 0.1rem solid hsla(0, 100%, 0%, 1);
+  border: 0.1rem solid var(--zano-gray);
   border-radius: 0.1rem;
   padding: 0.2rem 0.4rem;
 }
