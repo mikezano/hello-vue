@@ -44,3 +44,8 @@ button {
   border-radius: 0.1rem;
   padding: 0.2rem 0.4rem;
 }
+
+.oi {
+  width: 16px;
+  height: 16px;
+}
