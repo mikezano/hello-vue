@@ -34,12 +34,3 @@ export default {
   },
 };
 </script>
-
-<style>
-.card {
-  width: 200px;
-  height: 300px;
-  border: 1px solid black;
-  padding: 1rem;
-}
-</style>

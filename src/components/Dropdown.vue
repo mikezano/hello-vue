@@ -32,7 +32,6 @@ const toggleItems = () => {
 .dropdown {
   border: 1px solid var(--zano-gray);
   position: relative;
-  width: 100%;
 }
 .dropdown:hover {
   cursor: pointer;
